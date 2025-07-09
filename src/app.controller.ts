@@ -23,7 +23,7 @@ import { diskStorage } from 'multer';
 import { randomUUID } from 'node:crypto';
 import path, { extname } from 'node:path';
 import fs from 'node:fs';
-import { PrismaService } from '@src/prisma.service';
+import { PrismaService } from './prisma.service';
 
 @Controller()
 export class AppController {
